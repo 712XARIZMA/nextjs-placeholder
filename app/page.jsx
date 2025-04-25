@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -40,6 +41,12 @@ export default function Home() {
           className="block w-full border border-gray-300 rounded-xl px-5 py-3 text-center text-lg hover:text-black text-gray-400 hover:border-black hover:bg-gray-100 transition"
         >
           POSTS
+        </Link>
+        <Link
+          href="/posts/cards"
+          className="block w-full border border-gray-300 rounded-xl px-5 py-3 text-center text-lg hover:text-black text-gray-400 hover:border-black hover:bg-gray-100 transition"
+        >
+          CARDS
         </Link>
       </div>
     </div>
